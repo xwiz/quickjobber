@@ -92,9 +92,8 @@
                   <label for="">Education level</label>
                   <select name="education_level" class="form-control" value="{{old('education_level')}}">
                     <option value="Bachelors">Bachelors</option>
-                    <option value="High School">High School</option>
+                    <option value="SSCE">SSCE</option>
                     <option value="Master">Master</option>
-                    <option value="SEE Mid School">SEE Mid School</option>
                     <option value="Other">Other</option>
                   </select>
                 </div>

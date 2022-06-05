@@ -69,7 +69,7 @@
           </div>
           <hr class="my-3" />
           <div class="pb-0">
-            <div class="card-title mb-1">Eductation</div>
+            <div class="card-title mb-1">Education</div>
             <div class="card-body p-0">
               <div class="form-group">
                 <select
@@ -82,9 +82,8 @@
                     -- select an option --
                   </option>
                   <option value="Bachelors">Bachelors</option>
-                  <option value="High School">High School</option>
+                  <option value="SSCE">SSCE</option>
                   <option value="Master">Master</option>
-                  <option value="SEE Mid School">SEE Mid School</option>
                   <option value="Other">Other</option>
                 </select>
               </div>

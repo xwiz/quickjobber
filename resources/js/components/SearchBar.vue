@@ -24,19 +24,14 @@
         </div>
         <div class="col-sm-12 col-md-6 offset-md-3 small text-center my-2">
           <div class="row">
-            <div class="col-sm-6 col-md-3">
-              <router-link to="/">All Jobs</router-link>
+            <div class="col-sm-6 col-md-4">
+              <router-link to="/">All Positions</router-link>
             </div>
-            <div class="col-sm-6 col-md-3">
-              <router-link to="/jobs-by-organization"
-                >By Organisation</router-link
-              >
+            <div class="col-sm-6 col-md-4">
+              <router-link to="/jobs-by-category">By Category</router-link>
             </div>
-            <div class="col-sm-6 col-md-3">
-              <router-link to="/jobs-by-category">By Job Category</router-link>
-            </div>
-            <div class="col-sm-6 col-md-3">
-              <router-link to="/jobs-by-title">By Job Title</router-link>
+            <div class="col-sm-6 col-md-4">
+              <router-link to="/jobs-by-title">By Title</router-link>
             </div>
           </div>
         </div>

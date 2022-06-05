@@ -40217,7 +40217,7 @@ var render = function() {
             _vm._v(" "),
             _c("div", { staticClass: "pb-0" }, [
               _c("div", { staticClass: "card-title mb-1" }, [
-                _vm._v("Eductation")
+                _vm._v("Education")
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "card-body p-0" }, [
@@ -40251,8 +40251,8 @@ var render = function() {
                         _vm._v("Bachelors")
                       ]),
                       _vm._v(" "),
-                      _c("option", { attrs: { value: "High School" } }, [
-                        _vm._v("High School")
+                      _c("option", { attrs: { value: "SSCE" } }, [
+                        _vm._v("SSCE")
                       ]),
                       _vm._v(" "),
                       _c("option", { attrs: { value: "Master" } }, [

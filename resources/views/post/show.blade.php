@@ -10,7 +10,7 @@
             <div class="company-banner">
               <div class="banner-overlay"></div>
               @if($company->cover_img == 'nocover')
-              <img src="{{asset('images/companies/nocover.jpg')}}" class="company-banner-img img-fluid" alt="">
+              <img src="{{asset('images/banner.jpg')}}" class="company-banner-img img-fluid" alt="">
               @else
               <img src="{{asset($company->cover_img)}}" class="company-banner-img img-fluid" alt="">
               @endif

@@ -8,21 +8,21 @@
             <div class="login-poster">
                 {{-- <img src="" alt=""> --}}
                 <h2 class="my-3 slogon">
-                    Register for a better opportunity
+                    Nigeria can be better with you
                 </h2>
             
-                <p class="text-white mb-3 lead"><i class="fas fa-angle-right"></i> Its free and always be</p>
-                <p class="text-white mb-3 lead"><i class="fas fa-angle-right"></i>  Your Confidentiality is Assured</p>            
-                <p class="text-white mb-3 lead"><i class="fas fa-angle-right"></i> We Provide Career Opportunities</p> 
-                <p class="text-white mb-3 lead"><i class="fas fa-angle-right"></i> Most Trusted Job Portal in Nepal</p>
+                <p class="text-white mb-3 lead"><i class="fas fa-angle-right"></i> Find and Promote competent leadership </p>
+                <p class="text-white mb-3 lead"><i class="fas fa-angle-right"></i>  Help stop election rigging and apathy</p>            
+                <p class="text-white mb-3 lead"><i class="fas fa-angle-right"></i> Good Leaders shouldn't have to spend billions to serve</p> 
+                <p class="text-white mb-3 lead"><i class="fas fa-angle-right"></i> Do your part to secure Nigeria's future</p>
             </div>
         </div>
 
         <div class="col-sm-12 col-md-6 px-0">
             <div class="login-container">
                 <div class="login-header mb-3">
-                    <h3><img src="{{asset('images/logo/joblister.png')}}" width="50px;" alt=""> Create your free jobseeker account</h3>
-                    <p class="text-muted">Register with basic information, Complete your profile and start applying for the job for free!</p>
+                    <h3><img src="{{asset('images/logo/tbn.png')}}" width="50px;" alt=""> Create your free account</h3>
+                    <p class="text-muted">Register with basic information, Complete your profile and apply for a position suitable for you</p>
                 </div>
                 <div class="login-form">
                     <form action="{{route('register')}}" method="POST">
@@ -83,7 +83,7 @@
                             </div>
                         </div>
                         <div>
-                            <small class="text-muted d-block mb-3">By clicking on 'Create Jobseeker Account' below you are agreeing to the terms and smallrivacy of Joblister!</p>
+                            <small class="text-muted d-block mb-3">By clicking on 'Create Jobseeker Account' below you are agreeing to the terms and smallrivacy of QRecruit!</p>
                         </div>
                         <button type="submit" class="btn primary-btn btn-block">Register</button>
                     </form>
@@ -101,13 +101,13 @@
 <style>
 .login-poster {
     /* fallback */
-   background-image: url('{{asset("images/login-background.png")}}');
+   background-image: url('{{asset("images/sorosoke.jpg")}}');
     background-image: linear-gradient(
             to bottom,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.35)
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.5)
         ),
-        url('{{asset("images/login-background.png")}}');
+        url('{{asset("images/sorosoke.jpg")}}');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

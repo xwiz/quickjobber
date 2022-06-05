@@ -7,11 +7,11 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name')?? 'JobLister' }}</title>
+    <title>{{ config('app.name')?? 'QuickRecruit' }}</title>
 
     <!-- Scripts -->
 
-    <link rel="shortcut icon" type="image/png" href="{{asset('images/logo/joblister.png')}}" />
+    <link rel="shortcut icon" type="image/png" href="{{asset('images/logo/tbn.png')}}" />
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
 

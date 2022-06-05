@@ -24,10 +24,10 @@ class PostFactory extends Factory
         return [
             'job_title' => 'Marketing manager',
             'job_level' => 'Senior level',
-            'vacancy_count' => rand(2, 10), // password
+            'vacancy_count' => rand(2, 30), // password
             'employment_type' => 'Full time',
-            'job_location' => 'kathmandu-18,Nepal',
-            'deadline' => date("Y-m-d H:i:s", strtotime(date("Y-m-d H:i:s") . " +2 days")),
+            'job_location' => 'FCT, Nigeria',
+            'deadline' => now()->addDays(30),
             'education_level' => 'Bachelors',
             'experience' => '2 years',
             'salary' => '20k - 50k',

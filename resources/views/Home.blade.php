@@ -9,11 +9,11 @@
             <div class="px-4">
               <div class="rounded-text">
                 <p>
-                  Find jobs, vacancy, career online.
+                  We are actively seeking for volunteers.
                 </p>
               </div>
               <div class="home-search-bar">
-                  <input type="text" name="q" placeholder="Search Job By Title" class="home-search-input form-control">
+                  <input type="text" name="q" placeholder="Search for volunteering opportunities" class="home-search-input form-control">
                   <button type="submit" class="secondary-btn"><i class="fas fa-search"></i></button>
               </div>
             </div>
@@ -21,7 +21,7 @@
           <div class="col-sm-12 col-md-6">
             <div class="py-5 px-5 text-center">
               <div class="text-light">
-                <h4>A dream doesn't become reality through magic, it takes sweat, determination and hard work.
+                <h4>Our dream for a new Nigeria is for all  who believe and are ready and determined to put in the efforts required to give Nigeria a good leader.
               </h4>
               </div>
             </div>
@@ -38,7 +38,7 @@
         <div class="col-sm-12 col-md-7 ml-auto">
           <div class="card">
             <div class="card-header">
-              <p class="card-title font-weight-bold"><i class="fas fa-briefcase"></i> Top jobs</p>
+              <p class="card-title font-weight-bold"><i class="fas fa-briefcase"></i> Open positions</p>
             </div>
             <div class="card-body">
               <div class="top-jobs" >
@@ -67,32 +67,15 @@
                  </div>
                </div>
               </div>
-              <a class="btn secondary-btn" href="{{route('job.index')}}">Show all jobs</a>
+              <a class="btn secondary-btn" href="{{route('job.index')}}">Show all positions</a>
             </div>
           </div>
        
         <div class="col-sm-12 col-md-3 mr-auto">
 
-          <div class="card mb-4">
-            <div class="card-header">
-              <p class="font-weight-bold"><i class="fas fa-building"></i> Top Employers</p>
-            </div>
-            <div class="card-body">
-              <div class="top-employers">
-              @foreach ($topEmployers as $employer)
-                <div class="top-employer">
-                  <a href="{{route('account.employer',['employer'=>$employer])}}">
-                    <img src="{{asset($employer->logo)}}" width="60px" class="img-fluid" alt="">
-                  </a>
-                </div> 
-              @endforeach
-              </div>
-            </div>
-          </div>
-
             <div class="card mb-4 job-by-category">
               <div class="card-header">
-                <p class="font-weight-bold"><i class="fab fa-typo3"></i> Jobs By Category</p>
+                <p class="font-weight-bold"><i class="fab fa-typo3"></i> Opportunities By Category</p>
               </div>
               <div class="card-body">
                 <div class="jobs-category mb-3 mt-0">

@@ -10,7 +10,7 @@ Vue.use(VueRouter);
 import routes from "./routes";
 const router = new VueRouter({
     routes,
-    mode: "hash"
+    mode: "history"
 });
 
 Vue.component(
